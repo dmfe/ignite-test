@@ -31,6 +31,7 @@ public class NamesService {
                 "Semen",
                 "Anatoly",
                 "Timofei",
+                "Aristarh",
                 "Vladimir"
         );
 
