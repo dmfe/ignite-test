@@ -19,6 +19,6 @@ public class ContextRefreshListener implements ApplicationListener<ContextRefres
     public void onApplicationEvent(@NotNull ContextRefreshedEvent event) {
         log.info("Configuring ignite caches...");
         cacheService.resetCaches();
-        log.info("Ignite caches configuration done.");
+        log.info("Caches configuration done.");
     }
 }
