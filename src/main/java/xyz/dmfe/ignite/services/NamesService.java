@@ -30,7 +30,8 @@ public class NamesService {
                 "Alexey",
                 "Semen",
                 "Anatoly",
-                "Timofei"
+                "Timofei",
+                "Vladimir"
         );
 
         simulateLongOperation();

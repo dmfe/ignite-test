@@ -15,6 +15,7 @@ public class SampleController {
 
     @GetMapping("/hello")
     public String hello() {
+        System.out.println("test");
         return String.format("{\"message\" : \"Hello, %s!\"}", namesService.getName());
     }
 }
