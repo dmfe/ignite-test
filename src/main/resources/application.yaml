@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ignite
+    username: postgres
+    password: postgres
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: validate
+
+ignite:
+  connection-string: 127.0.0.1:10800
+  enabled: true
+  client:
+    timeout: 10000
+    no-tcp-delay: true
+  expire-policies:
+    teachers: 60000
+    courses: 120000
+    names: 10000
